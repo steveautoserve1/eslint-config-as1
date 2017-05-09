@@ -1,4 +1,7 @@
 module.exports = {
+  "extends": [
+    "eslint:recommended"
+  ],
   "rules": {
     "no-process-exit": 1,
     "no-unused-vars": 1,
