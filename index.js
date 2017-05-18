@@ -25,8 +25,14 @@ module.exports = {
       "always"
     ],
     "comma-dangle": [
-      2,
-      "never"
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore",
+      }
     ],
     "no-cond-assign": [
       2,
